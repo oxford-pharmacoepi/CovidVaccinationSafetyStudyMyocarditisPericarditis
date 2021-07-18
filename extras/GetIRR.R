@@ -63,6 +63,9 @@ Network.patient.characteristcis<-bind_rows(Network.patient.characteristcis)
 names(Network.patient.characteristcis)<-str_replace(names(Network.patient.characteristcis),
                                                     "Overall","Study population")
 names(Network.patient.characteristcis)
+Network.patient.characteristcis <-  Network.patient.characteristcis %>% 
+  select(-"Myocarditis wo cleanwindow", -"Myocarditis_Narrow wo cleanwindow", -"Pericarditis wo cleanwindow", -"Pericarditis_narrow wo cleanwindow", -"thrombocyt", -"VTE narrow")
+
 
 table(Network.patient.characteristcis$pop.type)
 
