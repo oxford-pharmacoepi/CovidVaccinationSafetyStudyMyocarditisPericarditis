@@ -81,24 +81,27 @@ results_database_schema<-"results"
 # This is the name of the schema where a results table will be created 
 
 cohortTableExposures<-"CovVaxExposures_XL"
-cohortTableOutcomes <-"CovVaxOutcomes_XL_myoc"
-cohortTableProfiles<-"CovVaxProfiles_XL"
+cohortTableOutcomes <-"CovVaxOutcomes_XL_aesibmj"
+cohortTableProfiles<-"CovVaxProfiles_XL_aesibmj"
 # These are the tables to be created in your results schema for this analysis
 # You can keep the above names or change them
 # Note, any existing tables in your results schema with the same name will be overwritten
 
 
 
-db.name<-"CPRD AURUM"
+db.name<-"CPRD GOLD_general"
+db.name<-"CPRD AURUM_covid"
+db.name<-"CPRD AURUM_vaccinated"
+db.name
 # This is the name/ acronym for your database (to be used in the titles of reports, etc) 
 
 create.outcome.cohorts<-TRUE #FALSE    #  TRUE
 # if you have already created the outcome cohorts, you can set this to FALSE to skip instantiating these cohorts again
 
 
-run.vax.cohorts<- FALSE
-run.covid.cohorts<-FALSE
-run.general.pop.cohorts<-TRUE
+run.vax.cohorts<- FALSE #TRUE  #FALSE
+run.covid.cohorts<- TRUE #FALSE  #FALSE
+run.general.pop.cohorts<-FALSE
 
 # run the analysis
 start<-Sys.time()

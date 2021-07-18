@@ -1,0 +1,14 @@
+    DBMS = "postgresql"
+    DB_SERVER = "163.1.64.2"
+    DB_PORT = 5432
+    DB_USER = "xli"
+    DB_PASSWORD = "Jswdwsx@1995"
+    ANDROMEDA_TEMP_FOLDER = "/home/xli/VaxSafetySCCS/andromeda"
+    DB_SERVER_p20_000211_cdm_aurum = "163.1.64.2/p20_000211_cdm_aurum"
+    DB_SERVER_p20_000211_cdm_aurum_dbi = "p20_000211_cdm_aurum"
+    DB_HOST = "163.1.64.2"
+    DB_SERVER_p20_059_cdm_aurum = "163.1.64.2/p20_059_cdm_aurum"
+    DB_SERVER_p20_059_cdm_aurum_dbi = "p20_059_cdm_aurum"
+    DB_SERVER_cdmgold202007 = "163.1.64.2/cdmgold202007"
+    DB_SERVER_cdmgold202007_dbi = "cdmgold202007"
+
