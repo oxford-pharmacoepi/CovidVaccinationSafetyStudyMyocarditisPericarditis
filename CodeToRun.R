@@ -80,9 +80,9 @@ vocabulary_database_schema<-"vocabulary"
 results_database_schema<-"results"
 # This is the name of the schema where a results table will be created 
 
-cohortTableExposures<-"CovVaxExposures_XL"
-cohortTableOutcomes <-"CovVaxOutcomes_XL_aesibmj"
-cohortTableProfiles<-"CovVaxProfiles_XL_aesibmj"
+cohortTableExposures<-"CovVaxExposures"
+cohortTableOutcomes <-"CovVaxOutcomes"
+cohortTableProfiles<-"CovVaxProfiles"
 # These are the tables to be created in your results schema for this analysis
 # You can keep the above names or change them
 # Note, any existing tables in your results schema with the same name will be overwritten
